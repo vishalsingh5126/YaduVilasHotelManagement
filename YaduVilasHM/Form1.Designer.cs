@@ -1,4 +1,5 @@
-﻿namespace YaduVilasHM
+﻿using System.Windows.Forms;
+namespace YaduVilasHM
 {
     partial class Form1
     {
@@ -28,10 +29,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Hotel Yadu Vilas Palace";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.ResumeLayout(false);
+            this.FormBorderStyle = FormBorderStyle.Fixed3D;
+
         }
 
         #endregion
