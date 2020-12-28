@@ -9,5 +9,7 @@ namespace YaduVilasHM.Models
     public static class CommandText
     {
         public static string VadidateUser = "VadidateUser";
+        public static string BookingsGet = "BookingsGet";
+        public static string BookingInsert ="[dbo].[BookingInsert]";
     }
 }
